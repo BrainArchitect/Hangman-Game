@@ -1,7 +1,7 @@
 Hangman-Game
 ============
 
-Hangman - Game
+Project Description
 
 The server chooses a word from a dictionary, and the client (the player) tries to guess the word chosen by the server by suggesting letters (one letter at a time) or a whole word.
 The client is given a certain number of attempts (failed attempts) when it may suggest a letter that does not occur in the word.
