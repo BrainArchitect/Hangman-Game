@@ -22,3 +22,5 @@ If the letter guessed by the client occurs in the word and the client has comple
 If the letter guessed by the client occurs in the word and the has not completed yet the whole word, the server sends to the client the current view of the word with the letter placed  in all its correct positions and the current value of the failed attempts counter. For example, if the client suggest "g" then the current view of the word is "---g------g", if the client then suggest "m" then the current view of the work becomes "---g--mm--g";
 
 If the letter guessed by the client does not occur in the word or the client guesses the whole word incorrectly, the server decrements the failed attempt counter and, depending on the counter's value, sends either the current view of the word together with the value of the failed attempt counter (if the counter > 0), or a "gave over; you loose" message together with the total score (if the counter == 0).
+
+The files from which the words will be chosen is the Words.txt in the root directory.
